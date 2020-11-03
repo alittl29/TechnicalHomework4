@@ -6,17 +6,27 @@
 <head runat="server">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
+        <script src="Scripts/jquery-3.0.0.js"></script>
+        <script src="Scripts/popper.js"></script>
+        <script src="Scripts/bootstrap.js"></script>
+        <link href="Content/bootstrap.css" rel="stylesheet" />
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1>Master Page</h1>
-            <div>
-                <a href="default.aspx">Default Page</a>
-                <a href="contentPage2.aspx">Page 2</a>
-                <a href="contentPage3.aspx">Page 3</a>
-            </div>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="default.aspx">Pet Meds</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="default.aspx">Home</a></li>
+                        <li><a href="contentPage2.aspx">Page 2</a></li>
+                        <li><a href="contentPage3.aspx">Page 3</a></li>    
+                    </ul>
+                </div>
+            </nav>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
