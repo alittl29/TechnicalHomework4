@@ -78,6 +78,10 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="default.aspx" />
+    <Content Include="Images\burbs.jpg" />
+    <Content Include="Images\dog.jpg" />
+    <Content Include="Images\keetykat.jpg" />
+    <Content Include="Images\kittykat.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
